@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background: rgb(102,87,127);
+    background: linear-gradient(352deg, rgba(102,87,127,1) 0%, rgba(46,72,107,0.9780287114845938) 35%, rgba(101,180,193,1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Heebo', sans-serif;
+}
+.search-main{
+    width: 450px;
+    height: 200px;
+    background: #44adbd6b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+}
+.search-main h2{
+    padding-bottom: 20px;
+    color: white;
+}
+.search-box{
+    width: 90%;
+    height: 50px;
+    background: rgba(102, 87, 127, 0.397);
+}
+.search-box input{
+    width: 80%;
+    height: 100%;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    background-color: none;
+    outline: none;
+    border: none;
+}
+.search-box button{
+    height: 100%;
+    width: 40px;
+    float: right;
+    background: none;
+    outline: none;
+    border: none;
+}
+.search-box button span{
+    color: white;
+    font-size: 36px;
+}
+.weather-card{
+    width: 0px;
+    height: 550px;
+    border-radius: 20px;
+    background: #44adbd6b;
+    color: white;
+    line-height: 100px;
+    transition: all 0.5s;
+    /* border: 2px solid;  */
+    
+}
+.weather-card h1{
+    text-align: center;
+}
+.weather-card img{
+    margin-left: 33%;
+}
+.mor-day{
+    width: 100vw;
+    height: auto;
+    /* border: 2px solid; */
+}
+.data{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: all 9.5s;
+    align-items: center;   
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 100px;
+}
+.card{
+    width: 250px;
+    height: 500px;
+    /* border: 2px solid; */
+    text-align: center;
+    transition: all 0.5s;
+    color: white;
+    background: #44adbd6b;
+    border-radius: 20px;
+    line-height: 80px;
+}
+.search-box input::-webkit-input-placeholder{
+    color: white;
+}
